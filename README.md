@@ -1,3 +1,12 @@
+
+对auto-pairs-gentle插件做了一些修改，使其能与echofunc插件兼容。
+
+原始的auto-pairs和echofunc插件都对'('做了映射，因此会发生冲突，导致echofunc插件无法使用。
+
+此处将echofunc调用的命令融合到auto-pairs-gentle插件中，这样就很好的解决了它们之间的冲突。
+
+--------------------
+
 Auto Pairs
 ==========
 Insert or delete brackets, parens, quotes in pair.
